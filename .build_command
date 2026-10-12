@@ -1,0 +1,7 @@
+c:
+    gcc -Wall -Wextra -std=c17 {file1}.c {file2}.c ... -o build/{project_name}
+    ./build/{project_name}
+
+c++:
+    g++ -Wall -Wextra -std=c++17 {file1}.cpp {file2}.cpp ... -o build/{project_name}
+    ./build/{project_name}
